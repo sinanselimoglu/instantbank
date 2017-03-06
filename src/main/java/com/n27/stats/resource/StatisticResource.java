@@ -48,9 +48,13 @@ public class StatisticResource {
         Collection<Transaction> transactions = transactionStorage.findBetween(now - SECONDS_60, now);
 
         return transactions
+
                 .stream()
+
                 .reduce(new Statistic(0, 0, 0, 0, 0),
+
                         this::createStatisticFromTransaction,
+
                         new StatisticReducer()
                 );
     }

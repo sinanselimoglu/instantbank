@@ -2,14 +2,6 @@ package com.n27.stats.model;
 
 public class Transaction {
 
-    public Transaction() {
-    }
-
-    public Transaction(double amount, long timestamp) {
-        this.amount = amount;
-        this.timestamp = timestamp;
-    }
-
     private double amount;
 
     private long timestamp;
@@ -27,6 +19,14 @@ public class Transaction {
     }
 
     public void setTimestamp(long timestamp) {
+        this.timestamp = timestamp;
+    }
+
+    public Transaction() {
+    }
+
+    public Transaction(double amount, long timestamp) {
+        this.amount = amount;
         this.timestamp = timestamp;
     }
 

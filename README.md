@@ -1,8 +1,11 @@
 # Instant Bank Stat [![Build Status](https://travis-ci.org/sinanselimoglu/instantbank.svg?branch=master)](https://travis-ci.org/sinanselimoglu/instantbank)
 
 ##Description
-Stats service designed for receiving transaction notification 
-via rest call and return statistics about last 60 seconds.
+Stats service designed for receiving transaction notification via rest call and return statistics about last 60 seconds.
+
+##Assumptions
+
+Timestamp data accepted as unique variable.
 
 ##Usage
 
@@ -24,5 +27,5 @@ via rest call and return statistics about last 60 seconds.
  For receiving statistics about last 60 seconds, you can use below command
  
  ```
- curl -X GET -H "Cache-Control: no-cache" "http://localhost:8082/statistic"
+ curl -X GET -H "Cache-Control: no-cache" "http://localhost:8082/statistics"
  ```

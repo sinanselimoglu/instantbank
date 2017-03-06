@@ -10,7 +10,7 @@
 		{
 			"name": "Get stats",
 			"request": {
-				"url": "http://localhost:8082/statistic",
+				"url": "http://localhost:8082/statistics",
 				"method": "GET",
 				"header": [
 					{

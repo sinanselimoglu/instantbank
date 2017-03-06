@@ -16,7 +16,7 @@ import java.util.Collection;
 /**
  * Resource for getting statistics about last 60 second.
  */
-@Path("statistic")
+@Path("statistics")
 @Produces("application/json")
 @Consumes("application/json")
 public class StatisticResource {

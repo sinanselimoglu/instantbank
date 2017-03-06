@@ -1,1 +1,1 @@
-# instantbank
+# instantbank [![Build Status](https://travis-ci.org/sinanselimoglu/instantbank.svg?branch=master)](https://travis-ci.org/sinanselimoglu/instantbank)

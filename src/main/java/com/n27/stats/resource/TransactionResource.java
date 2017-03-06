@@ -43,7 +43,7 @@ public class TransactionResource {
 
             LOGGER.error("Exception occurred while creating transaction", e);
 
-            response = Response.status(500).build();
+            response = Response.status(500).entity(e.getMessage()).build();
         }
 
         return response;

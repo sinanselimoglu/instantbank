@@ -49,7 +49,7 @@ public class StatisticResource {
 
         return transactions
 
-                .stream()
+                .parallelStream()
 
                 .reduce(new Statistic(0, 0, 0, 0, 0),
 

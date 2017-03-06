@@ -63,4 +63,15 @@ public class Statistic {
     public void setCount(double count) {
         this.count = count;
     }
+
+    @Override
+    public String toString() {
+        return "Statistic{" +
+                "sum=" + sum +
+                ", avg=" + avg +
+                ", max=" + max +
+                ", min=" + min +
+                ", count=" + count +
+                '}';
+    }
 }

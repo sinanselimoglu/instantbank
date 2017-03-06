@@ -8,7 +8,8 @@ import java.util.Collection;
 import java.util.TreeMap;
 
 /**
- * Created by sinan on 06.03.2017.
+ * Tests transaction storage main functionality
+ * which is giving collections based on Key values
  */
 public class TransactionStorageTest {
 

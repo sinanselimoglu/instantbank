@@ -8,6 +8,7 @@ import java.util.SortedMap;
 /**
  * Keeps transaction data
  * ordered by SortedMap Key value.
+ * Important = Ordered map is used for efficiency concerns.
  */
 public class TransactionStorage {
 

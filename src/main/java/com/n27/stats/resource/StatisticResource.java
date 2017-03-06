@@ -7,14 +7,18 @@ import com.n27.stats.model.Transaction;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
 import java.util.Collection;
 
 /**
  * Resource for getting statistics about last 60 second.
  */
 @Path("statistic")
+@Produces("application/json")
+@Consumes("application/json")
 public class StatisticResource {
 
     private final static Logger LOGGER = LoggerFactory.getLogger(StatisticResource.class);

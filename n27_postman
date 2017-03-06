@@ -1,0 +1,48 @@
+{
+	"variables": [],
+	"info": {
+		"name": "n27",
+		"_postman_id": "e274a726-c496-7fb1-d1f4-978da055d959",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get stats",
+			"request": {
+				"url": "http://localhost:8082/statistic",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Send transaction",
+			"request": {
+				"url": "http://localhost:8082/transactions",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"amount\":20,\n\t\"timestamp\":1488760603000\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

@@ -1,6 +1,6 @@
-<mxfile modified="2023-10-13T15:51:45.749Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15" etag="jdPJckuu78J5aZNS_Mk9" version="22.0.4" type="github">
+<mxfile modified="2023-10-15T21:41:35.511Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15" etag="3n5M2qBiAeDX5QIz0AYl" version="22.0.4" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
-    <mxGraphModel dx="1434" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1147" dy="582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -113,13 +113,16 @@
           <mxGeometry x="1410" y="381" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="eYefZ6AM9R5u_aKp5XKv-36" value="&lt;b&gt;Prod&lt;/b&gt;" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" vertex="1" parent="1">
-          <mxGeometry x="1630" y="280" width="80" height="80" as="geometry" />
+          <mxGeometry x="1640" y="280" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="eYefZ6AM9R5u_aKp5XKv-37" value="DEV" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" vertex="1" parent="1">
           <mxGeometry x="1520" y="280" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="eYefZ6AM9R5u_aKp5XKv-39" value="&lt;b&gt;Hosting Provider should be capable of&lt;br&gt;- Dynamic VM setup&lt;br&gt;- Dynamic DNS Routing&lt;br&gt;-Docker instance Management&lt;br&gt;-Load Balancing&lt;br&gt;-Auto-scale (cost efficient)&lt;br&gt;- Compute GPU (run own LLM models)&lt;br&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1330" y="485" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="eYefZ6AM9R5u_aKp5XKv-44" value="&lt;b&gt;Prod 2&lt;/b&gt;" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="1640" y="390" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
